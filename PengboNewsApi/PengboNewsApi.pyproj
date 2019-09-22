@@ -21,11 +21,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bdpyby.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="channel.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ExcelOper.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="gtoken.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PengboNewsApi.py" />
+    <Compile Include="pytube3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wordfrequence.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="yt1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ytquery.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

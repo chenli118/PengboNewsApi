@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/PengboNewsApi/root@47.240.66.208
+/PengboNewsApi/channel.py
+/PengboNewsApi/client_secret.json
+/PengboNewsApi/gtoken.py
+/PengboNewsApi/yt1.py
+/PengboNewsApi/ytquery.py
