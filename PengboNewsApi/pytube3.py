@@ -29,10 +29,11 @@ def downpg(html):
                  YouTube(wv).streams.first().download()
                  with open("dlist.txt", 'a') as af:
                      af.write(wv+"\n")
-                 print (wv)                  
+                 print (wv)      
+                 time.sleep(130)
              except:
                  print("down error  "+wv)
-             time.sleep(130)
+             
 
 def downpl(churl):     
     pl_html = requests.get(ch_url).content.decode('utf-8')
